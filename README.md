@@ -13,6 +13,8 @@ Getting Started
 
 npm install
 
-Run the development server:
+    Run the development server:
 
 npm run dev
+
+Demo: [Vercel](https://pokewar.vercel.app/)
