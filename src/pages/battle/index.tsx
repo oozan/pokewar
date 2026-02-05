@@ -50,7 +50,7 @@ const BattlePage = () => {
       };
       decideWinner();
     } else {
-      router.push("/");
+      router.push("/play");
     }
   }, [player1Id, player2Id, router]);
 
@@ -119,7 +119,7 @@ const BattlePage = () => {
 
       {winner && (
         <div className="absolute bottom-10">
-          <Button variant="new" onClick={() => router.push("/")}>
+          <Button variant="new" onClick={() => router.push("/play")}>
             Start New Battle
           </Button>
         </div>
